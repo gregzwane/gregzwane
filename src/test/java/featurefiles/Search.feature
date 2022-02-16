@@ -1,9 +1,10 @@
 @Regression1
   Feature: Search
     Background:
-      Given The user have navigate to the investec url
+
 
     Scenario Outline: The user need to be able to search
+      Given The user have navigate to the investec url
       And user enters the search value "<SearchValue>"
       When user click on the search button
       Then The search results appears
