@@ -1,6 +1,7 @@
 package base;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -24,12 +25,13 @@ public class baseDriver {
             driver = new ChromeDriver();
 //            driver.manage().window().maximize();
             return driver;
-        } else if (browser.equals("ie") || browser.equals("IE") || browser.equals("Ie")) {
-            baseDriverProperties.InternetExplorerProperties();
-      //      DesiredCapabilities caps = DesiredCapabilities.internetExplorer();
+        } else if (browser.equals("edge") || browser.equals("EDGE") || browser.equals("Edge")) {
+            baseDriverProperties.EdgeProperties();
+    //    DesiredCapabilities caps = DesiredCapabilities.internetExplorer();
       //      caps.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
        //     caps.setCapability("nativeEvents", false);
         //    driver = new InternetExplorerDriver(caps);
+            driver = new EdgeDriver();
             driver.manage().window().maximize();
             return driver;
         }

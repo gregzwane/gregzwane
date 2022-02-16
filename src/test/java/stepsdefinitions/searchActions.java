@@ -26,5 +26,20 @@ public class searchActions extends core {
 
     }
 
+    @Given("the user click to navigate to the focu page")
+    public void the_user_click_to_navigate_to_the_focu_page() {
+
+    }
+
+    @When("a user click on the investment interest rates")
+    public void a_user_click_on_the_investment_interest_rates() {
+
+    }
+
+    @Then("the browser navigate to the cash investment interest rates page")
+    public void the_browser_navigate_to_the_cash_investment_interest_rates_page() {
+
+    }
+
 
 }

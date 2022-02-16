@@ -12,7 +12,6 @@ public class core extends baseDriver{
     public static Properties Repository = new Properties();
     public File f;
     public FileInputStream FI;
-    // public ExcelReader Data;
 
     public static WebElement getLocator(String locator) throws Exception {
         String locatorType = locator.split("~")[0];
@@ -62,6 +61,10 @@ public class core extends baseDriver{
         Repository.load(FI);
 
         f = new File(System.getProperty("user.dir") + "/src/main/java/pageLocator/search.properties");
+        FI = new FileInputStream(f);
+        Repository.load(FI);
+
+        f = new File(System.getProperty("user.dir") + "/src/main/java/pageLocator/signup.properties");
         FI = new FileInputStream(f);
         Repository.load(FI);
 

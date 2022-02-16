@@ -1,4 +1,4 @@
-@Regression
+@Regression1
   Feature: Search
     Background:
       Given The user have navigate to the investec url
