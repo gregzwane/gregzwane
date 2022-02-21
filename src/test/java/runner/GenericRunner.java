@@ -15,7 +15,7 @@ import stepDefinitions.searchActions;
         publish = true
 )
 public class GenericRunner {
-   static void AfterClass() throws Throwable{
+   static void AfterTest() throws Throwable{
        searchActions.closeBrower();
     }
 
