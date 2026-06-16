@@ -1,16 +1,14 @@
 ### Hi there 👋
 
-<!--
-**gregzwane/gregzwane** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I ' am Gregory Zwane, 
+I am Software Quality Engineer base in South Africa, Pretoria
+I design and build Test Framework using java, selenium, appium, cucumber, karate  and api testing 
 
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ... Demo Assessment for Investec
 - 🌱 I’m currently learning ...AI and API Automation
 - 👯 I’m looking to collaborate on ... 
-- 🤔 I’m looking for help with ...DATABASE
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 💬 Ask me about ...Selenium, java , cucumber
+- 📫 How to reach me: ... Linkedin
+
